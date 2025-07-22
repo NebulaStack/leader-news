@@ -16,6 +16,7 @@
         <module>heima-leadnews-service</module>
         <module>heima-leadnews-gateway</module>
         <module>heima-leadnews-test</module>
+        <module>heima-leadnews-service/heima-leadnews-user</module>
     </modules>
 
     <!-- 继承Spring boot工程 -->
@@ -69,6 +70,7 @@
     </properties>
     <dependencies>
         <!--日志处理包-->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
